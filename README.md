@@ -15,7 +15,7 @@ A repository demonstrating examples of using a Streamlit library for different t
 - [ ] Task: Develop an app that highlights entities (names, dates, locations) in user-provided text.
 - Focus: Using NLP libraries (e.g., spaCy) with Streamlit.
 
-## Sentiment Analysis Dashboard ARMAND:
+## Sentiment Analysis Dashboard INIGO:
 - [ ] Task: Create an app that predicts sentiment (positive, negative, neutral) from user input text.
 - Focus: Integrating sentiment analysis libraries (e.g., TextBlob) with Streamlit.
 
@@ -31,7 +31,7 @@ A repository demonstrating examples of using a Streamlit library for different t
 - [ ] Task: Introduce Markdown support. Add headers, bullet points, and links to provide context.
 - Focus: Enhancing app content.
 
-## Session State:
+## Session State ARMAND:
 - [ ] Task: Keeping session state variables.
 - Focus: .
 
@@ -39,6 +39,6 @@ A repository demonstrating examples of using a Streamlit library for different t
 - [ ] Task: Use URL parameters to create shareable links that load specific views within the app.
 - Focus: Deep linking.
 
-## Deployment to Heroku or Streamlit Sharing:
+## Deployment to Heroku or Streamlit Sharing ARMAND:
 - [ ] Task: Guide users on deploying their Streamlit apps to platforms like Heroku or Streamlit Sharing.
 - Focus: Deployment.
