@@ -1,3 +1,5 @@
 streamlit
 openai
 streamlit_chat
+spacy
+textblob
