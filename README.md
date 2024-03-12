@@ -1,15 +1,20 @@
 # Streamlit_Toolkit
 A repository demonstrating examples of using a Streamlit library for different tasks.
 
-
-## Text Generation Playground (genAI) EMILY:
-- [ ] Task: Create a Streamlit app where users input a prompt, and the app generates text using OpenAI’s GPT-3 or ChatGPT.
-- Focus: Showcase how to integrate genAI models with Streamlit.
+In order to try using all the different functionalities (without the struggle of installing different libraries one at a time), we suggest you run
+```
+pip install -r requirements.txt
+```
   
-## Chatbot Interface (genAI) KETI:
-- [ ] Task: Build an interactive chatbot using Streamlit. Users type messages, and the chatbot responds with pre-defined or dynamically generated answers.
-- Focus: Real-time conversational UI with genAI.
-
+## Chatbot Interface (genAI):
+- [x] Task: Build an interactive chatbot using Streamlit. Users type messages, and the chatbot responds with pre-defined or dynamically generated answers.
+- Focus: Real-time conversational UI with genAI
+**UI**
+![ChatbotStreamlit](https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/4a95f110-4358-4369-9ca8-cffc00f0144f)
+To use it run
+```
+streamlit run chatbotInterface.py
+```
 
 ## Named Entity Recognition (NER) Explorer CESAR:
 - [ ] Task: Develop an app that highlights entities (names, dates, locations) in user-provided text.
