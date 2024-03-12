@@ -10,7 +10,8 @@ pip install -r requirements.txt
 - [x] Task: Build an interactive chatbot using Streamlit. Users type messages, and the chatbot responds with pre-defined or dynamically generated answers.
 - Focus: Real-time conversational UI with genAI
 **UI**
-![ChatbotStreamlit](https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/4a95f110-4358-4369-9ca8-cffc00f0144f)
+<img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/4a95f110-4358-4369-9ca8-cffc00f0144f" width="500" height="600">
+
 To use it run
 ```
 streamlit run chatbotInterface.py
