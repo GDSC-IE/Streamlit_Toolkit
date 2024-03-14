@@ -9,7 +9,7 @@ from tensorflow.keras.applications import DenseNet121
 from tensorflow.keras.applications import EfficientNetB0
 from tensorflow.keras.applications import NASNetMobile
 
-st.title("Image recognition from camera input")
+st.title("👁️Image recognition from camera input")
 
 # Here are many models, try uncommenting them 
 # and seeing how they respond in the website
@@ -42,4 +42,4 @@ def predict(image):
 if image is not None:
     with Image.open(image) as img:
         label = predict(img)
-        st.header(f"this is {label}", anchor=None, help=None, divider=True)
+        st.header(f"Recognized as '{label}'", anchor=None, help=None, divider='rainbow')
