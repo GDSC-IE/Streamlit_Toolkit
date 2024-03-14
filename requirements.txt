@@ -3,3 +3,4 @@ openai
 streamlit_chat
 spacy
 textblob
+streamlit-option-menu==0.3.12
