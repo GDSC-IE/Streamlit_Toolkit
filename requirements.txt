@@ -4,3 +4,11 @@ streamlit_chat
 spacy
 textblob
 streamlit-option-menu==0.3.12
+tensorflow
+PIL
+numpy
+tensorflow.keras.applications.VGG16
+tensorflow.keras.applications.Xception
+tensorflow.keras.applications.DenseNet121
+tensorflow.keras.applications.EfficientNetB0
+tensorflow.keras.applications.NASNetMo
