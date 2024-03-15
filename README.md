@@ -7,14 +7,14 @@ pip install -r requirements.txt
 ```
   
 ## Chatbot Interface (genAI):
-- [x] Task: Build an interactive chatbot using Streamlit. Users type messages, and the chatbot responds with pre-defined or dynamically generated answers.
+An interactive chatbot using Streamlit and OpenAI. Users type messages, and the chatbot responds with dynamically generated answers.
 - Focus: Real-time conversational UI with genAI
 **UI**
 <img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/4a95f110-4358-4369-9ca8-cffc00f0144f" width="500" height="600">
 
 To use it run
 ```
-streamlit run chatbotInterface.py
+streamlit run chatbot_interface.py
 ```
 
 ## Named Entity Recognition (NER) Explorer CESAR:
@@ -22,29 +22,48 @@ streamlit run chatbotInterface.py
 - Focus: Using NLP libraries (e.g., spaCy) with Streamlit.
 
 ## Sentiment Analysis Dashboard INIGO:
-- [ ] Task: Create an app that predicts sentiment (positive, negative, neutral) from user input text.
+An app that predicts sentiment (positive, negative, neutral) from user input text.
 - Focus: Integrating sentiment analysis libraries (e.g., TextBlob) with Streamlit.
+<img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/c547da14-1237-49fa-9690-cf12e81f9ee4" width="700" height="600">
 
-## Image Captioning Viewer RONALD:
-- [ ] Task: Extend Streamlit to handle images. Users upload an image, and the app generates descriptive captions.
+To use it run
+```
+streamlit run sentiment_analysis.py
+```
+
+## Image Capturing and Hand detection:
+Extending Streamlit to handle images. Users upload an image, and the app detects hand landmark. Can be repurposed to process images in any other way.
 - Focus: Image processing and display.
+<img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/d62b9a39-42fc-43cc-9f30-1a1ff61b02d7" width="500" height="600">
 
-## Interactive Widgets RONALD:
-- [ ] Task: Showcase Streamlit widgets (sliders, dropdowns). Users interact with widgets to adjust values.
+To use it run
+```
+streamlit run image_capturing_hand_detection.py
+```
+
+## Interactive Widgets:
+Showcasing Streamlit widgets (sliders, dropdowns). Users interact with widgets to adjust values.
 - Focus: Creating responsive user interfaces.
+<img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/b7a25143-4e8d-49d3-8dc6-a1d39ec59b09" width="500" height="1000">
+
+To use it run
+```
+streamlit run widgets.py
+```
+
 
 ## Markdown and HTML Elements KETI with Chatbot:
 - [ ] Task: Introduce Markdown support. Add headers, bullet points, and links to provide context.
 - Focus: Enhancing app content.
 
-## Session State ARMAND:
-- [ ] Task: Keeping session state variables.
-- Focus: .
+## Session State and caching (several tabs open):
+Keeping session state variables.
 
-## URL Parameters and Deep Linking:
-- [ ] Task: Use URL parameters to create shareable links that load specific views within the app.
-- Focus: Deep linking.
+<img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/dab2055d-4221-4afe-b57f-f95373d4e129" width="500" height="500">
+<img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/fde1c6a3-cd05-4af2-92a8-36c5ee510578" width="500" height="500">
+<img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/5edcc67e-5e4a-4b7f-80f5-16c86ea5b02c" width="500" height="200">
 
-## Deployment to Heroku or Streamlit Sharing ARMAND:
-- [ ] Task: Guide users on deploying their Streamlit apps to platforms like Heroku or Streamlit Sharing.
-- Focus: Deployment.
+To use it run
+```
+streamlit run session_state_and_chaching.py
+```
