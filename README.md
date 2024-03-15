@@ -44,6 +44,7 @@ streamlit run image_capturing_hand_detection.py
 ## Interactive Widgets:
 Showcasing Streamlit widgets (sliders, dropdowns). Users interact with widgets to adjust values.
 - Focus: Creating responsive user interfaces.
+- 
 <img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/b7a25143-4e8d-49d3-8dc6-a1d39ec59b09" width="500" height="1000">
 
 To use it run
@@ -52,9 +53,16 @@ streamlit run widgets.py
 ```
 
 
-## Markdown and HTML Elements KETI with Chatbot:
-- [ ] Task: Introduce Markdown support. Add headers, bullet points, and links to provide context.
-- Focus: Enhancing app content.
+## Markdown and HTML Elements:
+Introducing Markdown and HTML support. Add headers, bullet points, and images to provide context.
+Enhancing app content.
+
+<img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/aac8f33a-e1b9-49d4-9dec-9b5a96af6710" width="500" height="900">
+
+To use it run
+```
+streamlit run markdown_and_html.py
+```
 
 ## Session State and caching (several tabs open):
 Keeping session state variables.
