@@ -1,5 +1,5 @@
 # Streamlit_Toolkit
-A repository demonstrating examples of using a Streamlit library for different tasks. If you wish to go beyond what's here we suggest you visit Streamlit documentation which is amazing! https://docs.streamlit.io/
+This is a repository created by Google Developer Students Club tech gurus demonstrating examples of using a Streamlit library for different tasks. If you wish to go beyond what's here we suggest you visit Streamlit documentation which is also amazing! https://docs.streamlit.io/
 
 In order to try using all the different functionalities (without the struggle of installing different libraries one at a time), we suggest you run
 ```
