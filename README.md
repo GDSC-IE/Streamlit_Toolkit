@@ -1,6 +1,8 @@
 # Streamlit_Toolkit
 This is a repository created by Google Developer Students Club tech gurus demonstrating examples of using a Streamlit library for different tasks. If you wish to go beyond what's here we suggest you visit Streamlit documentation which is also amazing! https://docs.streamlit.io/
 
+- What is streamlit? Streamlit is an open-source Python framework designed to rapidly build and share beautiful web applications for data science and machine learning. It allows you to create interactive, user-friendly dashboards and apps with minimal effort, all in pure Python. 
+
 In order to try using all the different functionalities (without the struggle of installing different libraries one at a time), we suggest you run
 ```
 pip install -r requirements.txt
