@@ -36,6 +36,11 @@ Extending Streamlit to handle images. Users upload an image, and the app detects
 - Focus: Image processing and display.
 <img src="https://github.com/GDSC-IE/Streamlit_Toolkit/assets/64359365/d62b9a39-42fc-43cc-9f30-1a1ff61b02d7" width="500" height="600">
 
+To use it run
+```
+streamlit run image_capturing_hand_detection.py
+```
+
 ## Interactive Widgets:
 Showcasing Streamlit widgets (sliders, dropdowns). Users interact with widgets to adjust values.
 - Focus: Creating responsive user interfaces.
