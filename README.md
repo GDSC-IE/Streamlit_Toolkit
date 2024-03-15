@@ -71,6 +71,6 @@ To use it run
 streamlit run session_state_and_chaching.py
 ```
 
-## Named Entity Recognition (NER) Explorer CESAR:
+## Named Entity Recognition (NER) Explorer - work in progress..:
 - [ ] Task: Develop an app that highlights entities (names, dates, locations) in user-provided text.
 - Focus: Using NLP libraries (e.g., spaCy) with Streamlit.
